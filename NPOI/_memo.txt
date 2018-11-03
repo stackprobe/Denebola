@@ -1,0 +1,12 @@
+----
+2018.11.2
+
+サイト
+	https://www.nuget.org/packages/NPOI/
+
+落としてきたもの＆必要なもの
+	NPOI 2.4.0
+		npoi.2.4.0.nupkg -> lib\net40 ---> C:\Dat\DLL\npoi\npoi.2.4.0.nupkg\lib\net40
+
+	SharpZipLib 0.86.0
+		sharpziplib.0.86.0.nupkg -> lib\20 ---> C:\Dat\DLL\npoi\sharpziplib.0.86.0.nupkg\lib\20_
