@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Client>
+	<ServerUrlPrefix>http://localhost:59999/</ServerUrlPrefix>
+	<TileCrafter_ByDisk>true</TileCrafter_ByDisk>
+	<LayerOn>00001000100111000100</LayerOn>
+	<TileCrafter_PriorityToCenter>false</TileCrafter_PriorityToCenter>
+	<TileCrafter_Road>true</TileCrafter_Road>
+	<ShowCenterAddress>false</ShowCenterAddress>
+	<RouteColor R="0" G="255" B="255"/>
+	<ShowUser>true</ShowUser>
+	<UserColor R="255" G="0" B="255"/>
+	<HitUserColor R="139" G="0" B="0"/>
+	<GoogleMapUrlFormat>https://www.google.co.jp/maps/dir/'$(START_LAT),$(START_LON)'/'$(END_LAT),$(END_LON)'</GoogleMapUrlFormat>
+</Client>

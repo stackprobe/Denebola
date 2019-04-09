@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+
+	<PortNo>59999</PortNo>
+
+	<GOrigin LAT="35.6666" LON="139.713"/>
+
+	<GPoint_NW LAT="35.747" LON="139.628"/>
+	<GPoint_SE LAT="35.586" LON="139.747"/>
+
+	<FG_GML_RootDir>.\東京都地図T</FG_GML_RootDir>
+
+	<MRD_RootDir>.\東京道路網T</MRD_RootDir>
+	<MRD_CORRECT_LON>-0.00323</MRD_CORRECT_LON>
+	<MRD_CORRECT_LAT>0.00325</MRD_CORRECT_LAT>
+
+	<Address_RootDir>.\全国住所緯度経度T</Address_RootDir>
+
+</Server>
