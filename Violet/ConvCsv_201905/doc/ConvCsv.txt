@@ -1,0 +1,18 @@
+ConvCsv_201905
+==============
+
+CSVファイルの全列の最後に特定の文字列（セル）を追加する。
+
+----
+コマンドライン
+
+ConvCsv.exe /R 入力ファイル名 /W 出力ファイル名 /S 追加文字列 [/E エンコーディング]
+
+・デフォルトのエンコーディング = CP932
+
+----
+実行例
+
+ConvCsv.exe /R input.csv /W C:\tmp\output.csv /S いろは
+
+ConvCsv.exe /R ..\input.csv /W ..\output.csv /S ニホヘト /E utf-8
