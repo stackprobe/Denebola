@@ -24,8 +24,8 @@ namespace Charlotte
 #endif
 		}
 
-		private const string R_DIR = @"C:\wb\東京道路網";
-		private const string W_DIR = @"C:\wb\東京道路網T";
+		private const string R_DIR = @"C:\var2\res\東京道路網";
+		private const string W_DIR = @"C:\var2\res\東京道路網T";
 
 		private void Main2(ArgsReader ar)
 		{

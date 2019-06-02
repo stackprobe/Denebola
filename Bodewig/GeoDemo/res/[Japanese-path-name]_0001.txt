@@ -93,3 +93,9 @@ GeoDemo.zip を任意の場所に(アーカイブ内のツリー構造を維持したまま)展開して下さい
 
 	地図にフォーカスした状態で、テンキーの [+] [-] [*] 押下で個別ルートをハイライト表示します。
 
+
+----
+GitHub
+
+https://github.com/stackprobe/Denebola/tree/master/Bodewig/GeoDemo
+

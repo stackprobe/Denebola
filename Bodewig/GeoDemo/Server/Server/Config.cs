@@ -39,12 +39,12 @@ namespace Charlotte
 		/// 国土地理院_基盤地図情報データ を ConvTokyoMap に掛けた後のルートディレクトリ
 		/// https://fgd.gsi.go.jp/download/menu.php
 		/// </summary>
-		public string FG_GML_RootDir = @"C:\wb\東京都地図T";
+		public string FG_GML_RootDir = @"C:\var2\res\東京都地図T";
 
 		/// <summary>
 		/// MAPPLE道路ネットワークデータ(.mrd) を ConvTokyoRoad に掛けた後のルートディレクトリ
 		/// </summary>
-		public string MRD_RootDir = @"C:\wb\東京道路網T";
+		public string MRD_RootDir = @"C:\var2\res\東京道路網T";
 
 		// MRDの西偏補正(緯度経度)
 		public double MRD_CORRECT_LON = -0.00323;
@@ -53,7 +53,7 @@ namespace Charlotte
 		/// <summary>
 		/// 国土交通省国土政策局国土情報課_街区レベル位置参照情報 を ConvAddress に掛けた後のルートディレクトリ
 		/// </summary>
-		public string Address_RootDir = @"C:\wb\全国住所緯度経度T";
+		public string Address_RootDir = @"C:\var2\res\全国住所緯度経度T";
 
 		public void LoadFile(string file)
 		{

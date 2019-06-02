@@ -24,8 +24,8 @@ namespace Charlotte
 #endif
 		}
 
-		private const string R_DIR = @"C:\wb\東京都地図";
-		private const string W_DIR = @"C:\wb\東京都地図T";
+		private const string R_DIR = @"C:\var2\res\東京都地図";
+		private const string W_DIR = @"C:\var2\res\東京都地図T";
 
 		private void Main2(ArgsReader ar)
 		{
