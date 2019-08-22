@@ -1,18 +1,18 @@
 ConvCsv_201905
 ==============
 
-CSVƒtƒ@ƒCƒ‹‚Ì‘S—ñ‚ÌÅŒã‚É“Á’è‚Ì•¶Žš—ñiƒZƒ‹j‚ð’Ç‰Á‚·‚éB
+CSVãƒ•ã‚¡ã‚¤ãƒ«ã®å…¨åˆ—ã®æœ€å¾Œã«ç‰¹å®šã®æ–‡å­—åˆ—ï¼ˆã‚»ãƒ«ï¼‰ã‚’è¿½åŠ ã™ã‚‹ã€‚
 
 ----
-ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“
+ã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³
 
-ConvCsv.exe /R “ü—Íƒtƒ@ƒCƒ‹–¼ /W o—Íƒtƒ@ƒCƒ‹–¼ /S ’Ç‰Á•¶Žš—ñ [/E ƒGƒ“ƒR[ƒfƒBƒ“ƒO]
+ConvCsv.exe /R å…¥åŠ›ãƒ•ã‚¡ã‚¤ãƒ«å /W å‡ºåŠ›ãƒ•ã‚¡ã‚¤ãƒ«å /S è¿½åŠ æ–‡å­—åˆ— [/E ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°]
 
-EƒfƒtƒHƒ‹ƒg‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO = CP932
+ãƒ»ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚° = CP932
 
 ----
-ŽÀs—á
+å®Ÿè¡Œä¾‹
 
-ConvCsv.exe /R input.csv /W C:\tmp\output.csv /S ‚¢‚ë‚Í
+ConvCsv.exe /R input.csv /W C:\tmp\output.csv /S ã„ã‚ã¯
 
-ConvCsv.exe /R ..\input.csv /W ..\output.csv /S ƒjƒzƒwƒg /E utf-8
+ConvCsv.exe /R ..\input.csv /W ..\output.csv /S ãƒ‹ãƒ›ãƒ˜ãƒˆ /E utf-8

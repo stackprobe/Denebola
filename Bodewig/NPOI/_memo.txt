@@ -1,10 +1,10 @@
 ----
 2018.11.2
 
-ƒTƒCƒg
+ã‚µã‚¤ãƒˆ
 	https://www.nuget.org/packages/NPOI/
 
-—Ž‚Æ‚µ‚Ä‚«‚½‚à‚Ì••K—v‚È‚à‚Ì
+è½ã¨ã—ã¦ããŸã‚‚ã®ï¼†å¿…è¦ãªã‚‚ã®
 	NPOI 2.4.0
 		npoi.2.4.0.nupkg -> lib\net40 ---> C:\Dat\DLL\npoi\npoi.2.4.0.nupkg\lib\net40
 
