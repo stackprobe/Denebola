@@ -1,14 +1,12 @@
 C# codes
 ========
 
-主にC#で書いたコードの寄せ集めです。
-
-外部DLLを必要とするもの有り。
+C#で書いたコードの寄せ集めです。
 
 
 開発環境
 --------
 
-	Windows 7 Professional
+	Windows 10 (Pro | Home)
 	Visual C# 2010 Express
 
