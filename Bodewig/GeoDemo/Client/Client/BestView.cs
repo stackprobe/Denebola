@@ -63,7 +63,7 @@ namespace Charlotte
 
 			MeterPerMDot = DoubleTools.ToInt(meterPDot * 1000000.0);
 
-			MeterPerMDot = IntTools.Range(MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
+			MeterPerMDot = IntTools.ToRange(MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
 		}
 	}
 }

@@ -265,8 +265,8 @@ namespace Charlotte
 
 		private void CenterPointChanged()
 		{
-			Gnd.I.CenterPoint.Lat = DoubleTools.Range(Gnd.I.CenterPoint.Lat, Consts.LAT_MIN, Consts.LAT_MAX);
-			Gnd.I.CenterPoint.Lon = DoubleTools.Range(Gnd.I.CenterPoint.Lon, Consts.LON_MIN, Consts.LON_MAX);
+			Gnd.I.CenterPoint.Lat = DoubleTools.ToRange(Gnd.I.CenterPoint.Lat, Consts.LAT_MIN, Consts.LAT_MAX);
+			Gnd.I.CenterPoint.Lon = DoubleTools.ToRange(Gnd.I.CenterPoint.Lon, Consts.LON_MIN, Consts.LON_MAX);
 		}
 
 		private void MapPictureMouseWheel(object sender, MouseEventArgs e)
@@ -278,7 +278,7 @@ namespace Charlotte
 				vDlt = dlt < 0 ? -1 : 1;
 
 			Gnd.I.MeterPerMDot -= vDlt;
-			Gnd.I.MeterPerMDot = IntTools.Range(Gnd.I.MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
+			Gnd.I.MeterPerMDot = IntTools.ToRange(Gnd.I.MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
 
 			this.ChangeMeterPerLatLon();
 

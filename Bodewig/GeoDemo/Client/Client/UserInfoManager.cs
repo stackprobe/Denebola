@@ -46,8 +46,8 @@ namespace Charlotte
 				// Validate
 				{
 					user.Name = JString.AsLine(user.Name);
-					user.Point.X = DoubleTools.Range(user.Point.X, Consts.X_MIN, Consts.X_MAX);
-					user.Point.Y = DoubleTools.Range(user.Point.Y, Consts.Y_MIN, Consts.Y_MAX);
+					user.Point.X = DoubleTools.ToRange(user.Point.X, Consts.X_MIN, Consts.X_MAX);
+					user.Point.Y = DoubleTools.ToRange(user.Point.Y, Consts.Y_MIN, Consts.Y_MAX);
 					user.Mail = JString.AsLine(user.Mail);
 				}
 

@@ -185,7 +185,7 @@ namespace Charlotte
 						vDlt = Gnd.I.Delta < 0 ? -1 : 1;
 
 					Gnd.I.MeterPerMDot -= vDlt;
-					Gnd.I.MeterPerMDot = IntTools.Range(Gnd.I.MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
+					Gnd.I.MeterPerMDot = IntTools.ToRange(Gnd.I.MeterPerMDot, Consts.MPMD_MIN, Consts.MPMD_MAX);
 
 					Gnd.I.Delta = 0;
 				}
@@ -325,8 +325,8 @@ namespace Charlotte
 				double x = Gnd.I.CenterXY.X;
 				double y = Gnd.I.CenterXY.Y;
 
-				x = DoubleTools.Range(x, Consts.X_MIN, Consts.X_MAX);
-				y = DoubleTools.Range(y, Consts.Y_MIN, Consts.Y_MAX);
+				x = DoubleTools.ToRange(x, Consts.X_MIN, Consts.X_MAX);
+				y = DoubleTools.ToRange(y, Consts.Y_MIN, Consts.Y_MAX);
 
 				Gnd.I.CenterXY.X = x;
 				Gnd.I.CenterXY.Y = y;
