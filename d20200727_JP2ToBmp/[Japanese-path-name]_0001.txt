@@ -1,3 +1,3 @@
 ■以下の外部ファイルをリリース物に含める。
 
-	C:\Factory\SubTools\Chroco.exe
+	C:\Dev\wb\t20200727_DLL\FreeImage3180Win32Win64\Dist\x32\FreeImage.dll
