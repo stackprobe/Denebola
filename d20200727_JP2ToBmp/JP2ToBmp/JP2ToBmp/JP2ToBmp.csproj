@@ -121,6 +121,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>COPY C:\Dev\wb\t20200727_DLL\FreeImage3180Win32Win64\Dist\x32\FreeImage.dll $(TargetDir).</PostBuildEvent>
+    <PostBuildEvent>COPY C:\Dat\wb\t20200727_DLL\FreeImage3180Win32Win64\Dist\x32\FreeImage.dll $(TargetDir).</PostBuildEvent>
   </PropertyGroup>
 </Project>

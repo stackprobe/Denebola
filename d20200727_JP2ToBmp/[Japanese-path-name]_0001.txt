@@ -1,3 +1,0 @@
-■以下の外部ファイルをリリース物に含める。
-
-	C:\Dev\wb\t20200727_DLL\FreeImage3180Win32Win64\Dist\x32\FreeImage.dll
